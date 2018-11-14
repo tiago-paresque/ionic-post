@@ -1,0 +1,32 @@
+<ion-header>
+ 
+    <ion-navbar> 
+               
+      <ion-title text-center>Cadastro</ion-title>
+    </ion-navbar>
+  
+  </ion-header>  
+  
+  <ion-content padding>
+      <ion-item>
+          <ion-label floating>Login</ion-label>
+          <ion-input type="login"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label floating>Senha</ion-label>
+          <ion-input type="senha"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label floating>Confirme sua senha</ion-label>
+          <ion-input type="confirmar"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label>Concorda com a política do site?</ion-label>
+          <ion-checkbox></ion-checkbox>
+        </ion-item>
+        <button ion-button full (click)="Salvar()">Salvar</button>
+  </ion-content>
+  
